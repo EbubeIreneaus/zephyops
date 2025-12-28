@@ -1,0 +1,27 @@
+{
+  "name": "ZephyOps-Website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate:og": "node scripts/generate-og.js",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.3.0",
+    "aos": "^2.3.4",
+    "lottie-web": "^5.13.0",
+    "nuxt": "^4.2.2",
+    "swiper": "^10.2.0",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
