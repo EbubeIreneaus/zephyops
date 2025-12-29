@@ -109,7 +109,7 @@
 </template>
 
 <script setup lang="ts">
-const contactForm = ref(null);
+const contactForm = ref<HTMLFormElement | null>(null);
 const errorMsg = ref<string | null>(null);
 const isLoading = ref(false);
 
@@ -135,6 +135,7 @@ async function submitForm() {
         alert(
           "We have recieved your message, we will get back to you as soon as we can."
         );
+        contactForm.value?.reset()
       } else {
         res.json().then((data) => {
           if (Object.hasOwn(data, "errors")) {
