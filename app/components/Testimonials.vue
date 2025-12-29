@@ -13,7 +13,7 @@
         :loop="true"
         :autoplay="{ delay: 4500, disableOnInteraction: false }"
         :breakpoints="{ 640: { slidesPerView: 1 }, 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }"
-        navigation
+     
         pagination
         class="testimonials-swiper">
 

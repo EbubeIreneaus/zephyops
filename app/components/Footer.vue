@@ -49,7 +49,6 @@
 
       <div class="mt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/70">
         <div>© {{ new Date().getFullYear() }} ZephyOps · AI Automation & Workflow Engineering</div>
-        <div>Made with ♥ · <NuxtLink to="/privacy" class="underline">Privacy</NuxtLink></div>
       </div>
     </div>
   </footer>

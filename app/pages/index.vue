@@ -53,19 +53,19 @@
 
           <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             <li class="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
               <span class="text-slate-700">24/7 monitoring & support</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
               <span class="text-slate-700">Custom integrations & workflows</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18"/></svg>
               <span class="text-slate-700">Automated reporting & dashboards</span>
             </li>
             <li class="flex items-start gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657.895-3 2-3s2 1.343 2 3-1 3-2 3-2-1.343-2-3z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657.895-3 2-3s2 1.343 2 3-1 3-2 3-2-1.343-2-3z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2"/></svg>
               <span class="text-slate-700">Security and compliance minded</span>
             </li>
           </ul>
@@ -77,13 +77,13 @@
   <section class="py-12" data-aos="fade-up">
     <div class="relative overflow-hidden rounded-xl">
       <img src="/why-bg.svg" alt="decorative background" class="absolute inset-0 w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/60"></div>
+      <div class="absolute inset-0 bg-linear-to-b from-black/60 to-black/60"></div>
       <div class="relative max-w-6xl mx-auto px-4 py-20 text-white">
         <div class="grid lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 class="text-3xl font-extrabold drop-shadow">Why choose ZephyOps</h2>
             <h3 class="mt-4 text-xl font-semibold drop-shadow">We automate tasks — so you can focus on what matters.</h3>
-            <p class="mt-4 text-white">ZephyOps crafts automation solutions that remove repetitive work and cut operational risk. We apply engineering best-practices to automation design so your systems remain reliable and easy to iterate on.</p>
+            <p class="mt-4 text-white py-5">ZephyOps crafts automation solutions that remove repetitive work and cut operational risk. We apply engineering best-practices to automation design so your systems remain reliable and easy to iterate on.</p>
             <p class="mt-3 text-white">From data collection and monitoring to AI-driven content workflows and reporting, our team builds end-to-end automations tailored to your business goals. We prioritize observability, security, and maintainability so automations deliver lasting value.</p>
             <p class="mt-3 text-white">Working with ZephyOps means faster outcomes, fewer manual steps, and a partner that treats automation as a long-term investment in your operations.</p>
             <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-white">
