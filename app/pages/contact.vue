@@ -88,6 +88,7 @@
                   color="primary"
                   class="text-white px-4 py-2 rounded-md"
                   type="submit"
+                  :loading="isLoading"
                   >Send inquiry</u-button
                 >
                 <span class="text-sm text-slate-500"
